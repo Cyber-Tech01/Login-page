@@ -1,57 +1,78 @@
-body {
-    font-family:Arial, Sans-serif;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOyRcWxnOV8pbGKMHzUh4eQjzMPR5QLRb7WQ&s);
-    background-size:100% 100vh;
+body{
+  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlTFxsjz82wvmGTDkfKGY9HEtS-xSsmNoxRkxtIbz-6Kzn1PkAmwfv5uM&s=10);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container{
-  width:200px;
-  margin:50px auto;
-  padding:20px;
-  background-color:lightblue;
-  color:black;
-  font-weight: bold;
-  border-radius:10px;
-  box-shadow: 0 0 50px red;
+#headers{
+  color: white ;
 }
 
-h1{
-  text-align:center;
-  margin-bottom:20px;
-  color:green;
+#headers ul li a{
+  color: white ;
+  text-decoration: none;
+  transition: .3s ease;
 }
 
-form{
-  display:flex;
-  flex-direction: column;
+#headers ul li a:hover{
+  color:red;
+  text-decoration: underline;
 }
 
-.input1{
- border-radius:10px;
- border:1px solid red;
- padding:10px;
- margin-bottom:20px;
- height: 40px;
-background-color:lightpink;
-}
-
-.input2{
-  border-radius:10px;
-  padding:10px;
-  height: 40px;
-  margin-bottom:20px;
-  border:1px solid red;
-}
-
-button{
-  background-color:green;
-  font-weight: bolder;
+#home h1{
   color:white;
-  padding:10px;
-  font-size:1em;
+  text-decoration: underline;
 }
 
-butoon:hover{
-  background-color:black;
-  color:black;
+#home p{
+  color:red;
+  font-weight: bold;
+}
+
+.courses h2{
+  color:white;
+  text-decoration: underline;
+}
+
+.courses p{
+  color:blue;
+}
+
+.courses ol li{
+  color:white;
+  font-weight: bold;
+}
+
+.about h1{
+  color:white;
+  text-decoration: underline;
+}
+
+.about p{
+  color:white;
+  font-weight: bolder;
+}
+
+.getintouch h1{
+  color:white;
+  text-decoration: underline;
+}
+
+.getintouch p{
+  color: blue;
+}
+
+.getintouch p a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.getintouch p a:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+.copy{
+  color:white;
 }
